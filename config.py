@@ -9,7 +9,9 @@ import os
 #     )
 # postgres_local_base = os.environ['DATABASE_URL']
 
-postgres_local_base='postgresql://postgres:SEitv3fhZ42JOznVKUwD@containers-us-west-23.railway.app:6794/railway' #troubled mist database
+postgres_local_base='postgresql://postgres:blablabla@containers-us-west-23.railway.app:6794/railway' #troubled mist database
+
+#get your connection string above. I am using railway
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
