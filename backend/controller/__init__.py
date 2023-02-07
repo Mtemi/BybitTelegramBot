@@ -1,0 +1,1 @@
+from .userAuth import login_required
