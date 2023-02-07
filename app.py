@@ -123,7 +123,7 @@ api.add_namespace(authNS)
 
 # Then we need a loop to work with
 loop = asyncio.get_event_loop()
-bot_token = "1844273509:AAETC_F5QP0t7q5CLl6gbyQme6KT8jJihRw"
+bot_token = "Put token here"
 
 #curl http://127.0.0.1:5000/asset{"hello": "world"}
 #curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:5000/asset
