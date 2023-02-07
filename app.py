@@ -123,7 +123,7 @@ api.add_namespace(authNS)
 
 # Then we need a loop to work with
 loop = asyncio.get_event_loop()
-bot_token = "Put token here"
+bot_token = "add toke here"
 
 #curl http://127.0.0.1:5000/asset{"hello": "world"}
 #curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:5000/asset
@@ -333,7 +333,7 @@ def webhook(user_auth_token):
             print(datart)
             print('===================================================')
                 
-            bot_token = '1844273509:AAETC_F5QP0t7q5CLl6gbyQme6KT8jJihRw'
+            bot_token = 'add toke here'
             bot_chatID =str(user.telegramid)
             print("bot chat id", bot_chatID)
             #datart = '{"type": "market", "side": "buy", "amount": "97", "leftAsset" : "BTC", "rightAsset" : "USDT","leverage":"10", "takeProfit" : "None","stopLoss":"None","trailingStop":"None", "new_trailing_active":"None", "TelegramID":"1093054762"}'
@@ -658,7 +658,7 @@ def close(user_auth_token):
             print('===================================================')
                 
             # y_dict = ast.literal_eval(datart)
-            bot_token = '1844273509:AAETC_F5QP0t7q5CLl6gbyQme6KT8jJihRw'
+            bot_token = 'add toke here'
             y_dict_raw = json.loads(datart)
             y_dict = y_dict_raw.update({"TelegramID":int(user.telegramid)})
             bot_chatID = str(user.telegramid)
@@ -792,7 +792,7 @@ def leverage(user_auth_token):
             y_dict = json.loads(datart)
             y_dict.update({"TelegramID":int(user.telegramid)})
 
-            bot_token = '1844273509:AAETC_F5QP0t7q5CLl6gbyQme6KT8jJihRw'
+            bot_token = 'add toke here'
             bot_chatID = str(user.telegramid)
             #datart = '{"type": "Market", "side": "Buy", "amount": "97", "symbol": "BTCUSD","leverage":"10", "takeProfit" : "None","stopLoss":"None","trailingStop":"None", "new_trailing_active":"None", "TelegramID":"1093054762"}'
             if datart != None :                
